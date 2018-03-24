@@ -53,6 +53,10 @@ notes
 
 - an example input.csv file is provided.
 
+refferences
+=============
+- the 'password.txt' is from danielmiessler's repo: https://github.com/danielmiessler/SecLists
+
 To do
 =============
 - [x] ability to save generated rainbow table for later use
