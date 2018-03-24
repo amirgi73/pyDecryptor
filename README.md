@@ -11,21 +11,21 @@ Features
 Requirements
 =============
 - python3
-- a txt file containing common passwords (an example file provided in the repo)
+- a txt file containing common passwords (an example file is provided in the repo)
 - a csv file containing ("user,hash" or "email,hash")es (an example input.csv is provided in the repo)
 
 Installation
 =============
 clone repository using `git` and `cd` to newly created directory
 
-    git clone "https://github.com/amirgi73/pyDecryptor"
-    cd pyDecryptor/
+    $git clone "https://github.com/amirgi73/pyDecryptor"
+    $cd pyDecryptor/
     
 run the script using `python3`
 
-    python3 pyDecryptor.py
-    # or in arch or arch based distros:
-    python pyDecryptor.py
+    $python3 pyDecryptor.py
+    #or in arch or arch based distros:
+    $python pyDecryptor.py
 
 How to use it
 =============
