@@ -1,16 +1,12 @@
 # pyDecryptor
 A simple python script to decrypt hashed passwords.
+![](https://img.shields.io/github/stars/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/forks/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/tag/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/release/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/issues/amirgi73/pyDecryptor.svg) 
 
-###Features
-
+Features
+=============
 - decrypts sha256 hashed passwords using a rainbow table created from a list of common passwords.
 - ability to save the generated rainbow table to use it later and save time and resources.
 - corrently supports sha256 algorithm.
-
-# pyDecryptor
-
-![](https://img.shields.io/github/stars/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/forks/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/tag/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/release/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/issues/amirgi73/pyDecryptor.svg) 
-
 
 Requirements
 =============
@@ -24,11 +20,12 @@ clone repository using `git` and `cd` to newly created directory
 
     git clone "https://github.com/amirgi73/pyDecryptor"
     cd pyDecryptor/
+    
 run the script using `python3`
 
     python3 pyDecryptor.py
-	# or in arch or arch based distros:
-	python pyDecryptor.py
+    # or in arch or arch based distros:
+    python pyDecryptor.py
 
 How to use it
 =============
@@ -39,17 +36,20 @@ notes
 =============
 - the input file should be in .csv format. otherwise you get an error.
 - the input file should contain two elements speretaed by a comma in each line:
+
         user1,hashedPassword1
-		user2,hashedpassword2
-		.
-		.
-		.
-	    #or
-		email1,hashedPassword1
-		email2,hashedPassword2
-		.
-		.
-		.
+        user2,hashedpassword2
+        .
+        .
+	.
+	
+        #or
+        email1,hashedPassword1
+        email2,hashedPassword2
+        .
+        .
+        .
+
 - an example input.csv file is provided.
 
 To do
