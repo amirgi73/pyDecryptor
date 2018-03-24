@@ -34,7 +34,7 @@ How to use it
 - after runing the script, use 1 , 2 or 3 to make appropriate selection...
 - for addressing files you can use absolute path(es) or simply place the file in the projects folder and enter name of file when prompted.
 
-notes
+Notes
 =============
 - the input file should be in .csv format. otherwise you get an error.
 - the input file should contain two elements speretaed by a comma in each line:
