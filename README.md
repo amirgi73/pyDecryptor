@@ -53,7 +53,7 @@ notes
 
 - an example input.csv file is provided.
 
-refferences
+References
 =============
 - the 'password.txt' is from danielmiessler's repo: https://github.com/danielmiessler/SecLists
 
