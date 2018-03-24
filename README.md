@@ -41,9 +41,10 @@ notes
         user2,hashedpassword2
         .
         .
-	.
+        .
 	
-        #or
+    or
+    
         email1,hashedPassword1
         email2,hashedPassword2
         .
