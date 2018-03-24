@@ -1,6 +1,8 @@
 # pyDecryptor
-A simple python script to decrypt hashed passwords.
-![](https://img.shields.io/github/stars/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/forks/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/tag/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/release/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/issues/amirgi73/pyDecryptor.svg) 
+
+![](https://img.shields.io/github/stars/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/forks/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/tag/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/release/amirgi73/pyDecryptor.svg) ![](https://img.shields.io/github/issues/amirgi73/pyDecryptor.svg)
+
+A simple pyhton script to decrypt hashed passwords.
 
 Features
 =============
