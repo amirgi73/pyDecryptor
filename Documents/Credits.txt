@@ -1,0 +1,10 @@
+pyDecryptor is an open source project and developed by "KnightFr0mH3ll"
+
+If you want to Contribute in the project please see the project's github at:
+https://github.com/amirgi73/pyDecryptor
+
+If you find any bugs, please use project's github to report it.
+
+Did this project help you out? as a thank you, you can donate:
+BitCoin:"1Mo8dit7GDSEv4NJjpurkCziTbtUyAUXLj"
+Etherium:"0xd6161bFcF96ca50A076DF2548BC3bF1605697C59"
