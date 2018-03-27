@@ -10,9 +10,9 @@ Features
 - Ability to save the generated rainbow table to use it later and save time and resources.
 - Corrently supports following algorithms:
 	- md5
-	-sha1
-	-sha256
-	-sha512
+	- sha1
+	- sha256
+	- sha512
 
 Requirements
 =============
