@@ -6,9 +6,13 @@ A simple pyhton script to decrypt hashed passwords.
 
 Features
 =============
-- decrypts sha256 hashed passwords using a rainbow table created from a list of common passwords.
-- ability to save the generated rainbow table to use it later and save time and resources.
-- corrently supports sha256 algorithm.
+- Decrypts hashed passwords using a rainbow table created from a list of common passwords.
+- Ability to save the generated rainbow table to use it later and save time and resources.
+- Corrently supports following algorithms:
+	- md5
+	-sha1
+	-sha256
+	-sha512
 
 Requirements
 =============
@@ -18,26 +22,26 @@ Requirements
 
 Installation
 =============
-clone repository using `git` and `cd` to newly created directory
+Clone repository using `git` and `cd` to newly created directory
 
     $git clone "https://github.com/amirgi73/pyDecryptor"
     $cd pyDecryptor/
     
-run the script using `python3`
+Run the script using `python3`
 
-    $python3 pyDecryptor.py
+    $python3 menu.py
     #or in arch or arch based distros:
-    $python pyDecryptor.py
+    $python menu.py
 
 How to use it
 =============
-- after runing the script, use 1 , 2 or 3 to make appropriate selection...
-- for addressing files you can use absolute path(es) or simply place the file in the projects folder and enter name of file when prompted.
+- After runing the script, use 1 , 2 or 3, ... to make appropriate selection...
+- For addressing input files simply place the file in the 'input' folder and enter name of the file when prompted.
 
 Notes
 =============
-- the input file should be in .csv format. otherwise you get an error.
-- the input file should contain two elements speretaed by a comma in each line:
+- The input file should be in .csv format. otherwise you get an error.
+- The input file should contain two elements speretaed by a comma in each line:
 
         user1,hashedPassword1
         user2,hashedpassword2
@@ -53,13 +57,18 @@ Notes
         .
         .
 
-- an example input.csv file is provided.
+- An example input.csv file is provided.
 
 References
 =============
-- the 'password.txt' is from danielmiessler's repo: https://github.com/danielmiessler/SecLists
+- The 'password.txt' is from danielmiessler's repo: https://github.com/danielmiessler/SecLists
 
 To do
 =============
 - [x] ability to save generated rainbow table for later use
-- [ ] add support for other hashing algorithms
+- [x] add support for other hashing algorithms
+- [x] use OOP for easier development...
+- [x] Add error handling capability
+- [x] Add code 'docstrings' so you can understand the code easier.
+- [ ] add Help.txt
+
