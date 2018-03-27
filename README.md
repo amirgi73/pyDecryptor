@@ -41,7 +41,7 @@ How to use it
 Notes
 =============
 - The input file should be in .csv format. otherwise you get an error.
-- The input file should contain two elements speretaed by a comma in each line:
+- The input file should contain two elements seperated by a comma in each line:
 
         user1,hashedPassword1
         user2,hashedpassword2
@@ -70,5 +70,5 @@ To do
 - [x] use OOP for easier development...
 - [x] Add error handling capability
 - [x] Add code 'docstrings' so you can understand the code easier.
-- [ ] add Help.txt
+- [ ] Add Help.txt
 
